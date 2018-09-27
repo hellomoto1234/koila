@@ -1,0 +1,45 @@
+$primary: #3292a6;
+$primary-overlay:rgba(50, 146, 166, 0.8);
+
+.navbar{
+  box-shadow:2px 2px 5px $primary;
+  opacity:0.9;
+  background:#fff;
+
+  .nav-item{
+    font-size:1.1rem;
+    padding-right:20px;
+  }
+}
+
+#showcase{
+  position:realative;
+  background-image:url('../img/home-bg.jpg');
+  min-height:900px;
+
+}
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+.nav-item1{
+    font-size:1.1rem;
+    padding-right:20px;
+    }

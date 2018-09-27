@@ -1,0 +1,22 @@
+{
+  "name": "koila",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "prdp",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "tether": "^1.4.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
