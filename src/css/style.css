@@ -30,3 +30,9 @@
 .nav-item1 {
   font-size: 1.1rem;
   padding-right: 20px; }
+
+a.button-hover {
+  position: relative; }
+
+.fa {
+  font-size: 55px; }
